@@ -1,0 +1,299 @@
+body{background: url(software_images/bg.gif);}
+
+.skeleton{ width: 821px; height: auto; margin: 20px auto;}
+
+
+.logo{width: 229px;
+      height: 94px;
+      background: url(software_images/logo.gif) no-repeat; 
+}
+
+
+.menu{
+    width: 821px;
+    height: 42px;
+    background: url(software_images/menu_bg.gif) no-repeat;
+}
+
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.menu ul li{float: left;}
+
+
+.menu ul li a{
+    display: block;
+    width: 80px;
+    height: 30px;
+    font: bold 12px tahoma;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 0 0 0;
+}
+
+
+.menu ul li#home a{
+    display: block;
+    width: 80px;
+    height: 30px;
+    font: bold 12px tahoma;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 0 0 0;
+    background: url(software_images/menu_bullet.gif) center bottom no-repeat;
+}
+
+
+.menu ul li a:hover{background: url(software_images/menu_bullet.gif) center bottom no-repeat;}
+
+
+
+
+
+
+.orta{
+    width: 801px;
+    height: 730px;
+    background: #e9e5e2;
+    padding: 50px 0 0 20px;
+}
+
+
+.orta1{
+    width: 456px;
+    height: 30px;
+    background: url(software_images/checked.gif) no-repeat;
+    float: left;
+    font: 24px tahoma;
+    color: #24a4b7;
+    padding: 0 0 0 40px;
+    letter-spacing: 2px;
+}
+
+.yazi1{
+    font: bold 24px tahoma;
+    color: #d95b27;
+}
+
+
+.orta2{
+    width: 441px;
+    height: 177px;
+    background: url(software_images/welcome_box.gif) no-repeat;
+    float:left;
+    font: 12px tahoma;
+    color: black;
+    padding: 25px 40px 0 25px ;
+    text-align: justify;
+    line-height: 20px;
+}
+
+
+.yazi2{
+    font: bold 12px tahoma;
+    color: #d17750;
+}
+
+
+.read_more{
+    width: 63px;
+    height: 22px;
+    background: url(software_images/read_more_bg.gif) no-repeat;
+    margin: 10px 0 0 350px;
+    padding: 1px 0 0 20px;    
+}
+
+
+.read_more a{
+    font: bold 11px tahoma;
+    color: white;    
+    text-decoration: none;
+}
+
+
+.read_more a:hover{
+    text-decoration: underline;
+}
+
+
+.orta3{
+    width: 187px;
+    height: 265px;
+    float: left;
+    margin: -25px 0 0 60px;   
+}
+
+
+
+.orta4{
+    width: 466px;
+    height: 142px;
+    float: left;
+    font: bold 13px tahoma;
+    color: black;
+    padding: 10px 0 0 30px;    
+}
+
+.orta4 ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+.orta4 ul li{
+    display: block;
+    width: 402px;
+    height: 21px;
+    background: url(software_images/bullet_list.gif) no-repeat;
+    font: normal 11px tahoma;
+    padding: 4px 0 0 8px;
+}
+
+.yazi3{
+    font:bold 12px tahoma;
+    color: black;
+    margin-right: 15px;
+}
+
+
+.orta5{
+    width: 268px;
+    height: 139px;
+    float: left;
+    background: url(software_images/text_box.gif) no-repeat;
+    padding: 20px 0 0 20px;
+}
+
+
+.orta5 td{    
+    font: bold 11px tahoma;
+    color: black ;
+}
+
+
+.orta5 td span{
+    font-size: 15px;
+}
+
+
+.metinkutusu{
+    border: 1px solid #b5c6d0;
+    border-radius: 5px;
+    width: 150px;
+    height: 16px;
+}
+
+
+.dugme{
+    width: 83px;
+    height: 24px;
+    background:url(software_images/login.gif) no-repeat;
+    border: none;
+    margin: 5px 0 0 73px;
+}
+
+
+.orta6{
+    width: 466px;
+    height: 249px;
+    float: left;
+    font: bold 13px tahoma;
+    color: black;
+    padding: 10px 0 0 30px;
+    margin: 10px 0 0 0;
+}
+
+
+.orta6 ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+
+.orta6 ul li{
+    display: block;
+    width: 400px;
+    height: 90px;
+    background: url(software_images/news_icon.gif) no-repeat;
+    border-bottom: 1px dashed #ccc;
+    font: 13px tahoma;
+    padding: 0 0 0 40px;
+    text-align: justify;
+}
+
+
+
+.orta7{
+    width: 288px;
+    height: 25px;
+    float: left;
+    font: bold 14px tahoma;
+    color: black;
+    margin: 20px 0 0 0;
+}
+
+
+.orta8{
+    width: 258px;
+    height: 139px;
+    float: left;
+    font:  12px tahoma;
+    font-style: italic;
+    background: url(software_images/text_box.gif) no-repeat;
+    color: black;
+    margin: 20px 0 0 0;
+    text-align: justify;
+    padding: 20px 10px 0 20px;
+    line-height: 20px;
+}
+
+
+.orta8 span{
+    font-weight: bold;
+}
+
+
+.bottom{
+    width: 821px;
+    height: 50px;
+    margin: 0 0 0 30px;
+    background: url(software_images/csstemplatesmarket.gif) right no-repeat;
+}
+
+
+.bottom ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.bottom ul li{
+    float: left;
+}
+
+
+.bottom ul li a{
+    display: block;
+    padding: 3px 10px;
+    font: 13px tahoma;
+    color: #757266;
+    text-decoration: none;
+}
+
+
+.bottom ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
